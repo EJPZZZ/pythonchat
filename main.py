@@ -25,6 +25,6 @@ outputs = pipeline(
     top_p=0.95,  
     temperature=0.8,  
 )
-
+#
 # Imprimir la respuesta generada
 print(outputs[0]["generated_text"])
